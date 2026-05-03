@@ -181,4 +181,13 @@
     right: 0;
     border-right-color: var(--border);
   }
+
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 5cm;
 }
