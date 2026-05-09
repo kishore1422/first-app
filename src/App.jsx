@@ -1,11 +1,25 @@
 
 import './App.css'
+
 import { motion } from 'motion/react'
+
+import tailwindcss from '@tailwindcss/vite'
+
+
 
 function App() {
 
   return (
     <>
+    <div className='flex'>
+      <p>nanda kishore</p>
+      <ul>
+      <li>Home</li>
+      <li>about</li>
+      <li>social</li>
+      </ul>
+      <button>signup</button>
+    </div>
       <motion.div
      
       animate = {{
